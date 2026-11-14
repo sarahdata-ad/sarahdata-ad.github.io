@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Ahmed | Data Analyst Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fc;
+            color: #252b42;
+            line-height: 1.7;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        header h2 {
+            color: #6558d3;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 22px;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #eeeaff, #f8f9fc);
+        }
+
+        .hero h1 {
+            font-size: 46px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #6558d3;
+        }
+
+        .hero p {
+            max-width: 650px;
+            font-size: 18px;
+            color: #606477;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 28px;
+            background-color: #6558d3;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        section {
+            padding: 65px 10%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #6558d3;
+        }
+
+        .about p {
+            max-width: 750px;
+            margin: auto;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .skills-list span {
+            background-color: #ffffff;
+            padding: 12px 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+        }
+
+        .project-card {
+            background-color: white;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.06);
+        }
+
+        footer {
+            background-color: #252b42;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Sarah Ahmed</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Hi, I'm <span>Sarah Ahmed</span></h1>
+
+        <p>
+            I'm an aspiring Data Analyst passionate about exploring data,
+            uncovering insights, and transforming information into
+            meaningful stories.
+        </p>
+
+        <a href="#projects" class="button">Explore My Projects</a>
+    </div>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+
+        <p>
+            Welcome to my portfolio! I'm currently developing my skills
+            in Data Analytics and learning how to turn raw data into
+            meaningful insights. I enjoy exploring data, identifying
+            patterns, and presenting information through visualizations.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Tools</h2>
+
+        <div class="skills-list">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Power BI</span>
+            <span>Microsoft Excel</span>
+            <span>Tableau</span>
+            <span>NumPy</span>
+            <span>Pandas</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-card">
+            <h3>Adventure Works Sales Analysis</h3>
+            <p>
+                An interactive Power BI project exploring sales
+                performance and business insights.
+            </p>
+            <p><strong>Tools:</strong> Power BI, Power Query, DAX</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Superstore Data Analysis</h3>
+            <p>
+                A data visualization project exploring sales,
+                profit, categories, and regional performance.
+            </p>
+            <p><strong>Tools:</strong> Tableau</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's connect and explore opportunities to work with data!</p>
+        <p>Email: Add your email address here</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Sarah Ahmed | Data Analyst Portfolio</p>
+    </footer>
+
+</body>
+</html>
