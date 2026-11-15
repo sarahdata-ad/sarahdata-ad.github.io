@@ -33,5 +33,5 @@ A Power BI project focused on exploring sales performance, customer behaviour, p
 
 ## 🤝 Connect With Me
 
-- [LinkedIn](YOUR-LINKEDIN-URL)
-- [Portfolio Website](YOUR-PORTFOLIO-URL)
+- [LinkedIn](https://www.linkedin.com/in/sarah-ahmed-m-546539299/)
+- [Portfolio Website](https://sarahdata-ad.github.io/)
