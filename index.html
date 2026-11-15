@@ -171,28 +171,39 @@
             gap: 18px;
         }
 
-        .skill-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            padding: 22px;
-            border-radius: 9px;
-            transition: 0.3s;
-        }
+        
+.skill-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 22px;
+    border-radius: 9px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
 
-        .skill-card:hover {
-            border-color: var(--teal);
-            transform: translateY(-5px);
-        }
+.skill-card:hover {
+    border-color: var(--teal);
+    transform: translateY(-5px);
+}
 
-        .skill-card h3 {
-            color: var(--text);
-            margin-bottom: 7px;
-        }
+.skill-icon {
+    font-size: 32px;
+    min-width: 40px;
+    text-align: center;
+}
 
-        .skill-card p {
-            color: var(--muted);
-            font-size: 13px;
-        }
+.skill-info h3 {
+    color: var(--text);
+    margin-bottom: 5px;
+}
+
+.skill-info p {
+    color: var(--muted);
+    font-size: 13px;
+}
+
 
         /* Projects */
 
@@ -426,37 +437,54 @@
 
         <div class="skills-container">
 
-            <div class="skill-card">
-                <h3>Power BI</h3>
-                <p>Dashboard development and data visualization</p>
-            </div>
+            
+<div class="skill-card">
+    <div class="skill-icon">📊</div>
+    <div class="skill-info">
+        <h3>Power BI</h3>
+        <p>Dashboard development and data visualization</p>
+    </div>
+</div>
 
-            <div class="skill-card">
-                <h3>Python</h3>
-                <p>Currently learning Python for data analysis</p>
-            </div>
+<div class="skill-card">
+    <div class="skill-icon">🐍</div>
+    <div class="skill-info">
+        <h3>Python</h3>
+        <p>Currently learning Python for data analysis</p>
+    </div>
+</div>
 
-            <div class="skill-card">
-                <h3>SQL</h3>
-                <p>Currently learning database querying</p>
-            </div>
+<div class="skill-card">
+    <div class="skill-icon">🗄️</div>
+    <div class="skill-info">
+        <h3>SQL</h3>
+        <p>Currently learning database querying</p>
+    </div>
+</div>
 
-            <div class="skill-card">
-                <h3>Microsoft Excel</h3>
-                <p>Basic spreadsheet operations</p>
-            </div>
+<div class="skill-card">
+    <div class="skill-icon">📗</div>
+    <div class="skill-info">
+        <h3>Microsoft Excel</h3>
+        <p>Basic spreadsheet operations</p>
+    </div>
+</div>
 
-            <div class="skill-card">
-                <h3>Tableau</h3>
-                <p>Learning data visualization</p>
-            </div>
+<div class="skill-card">
+    <div class="skill-icon">📈</div>
+    <div class="skill-info">
+        <h3>Tableau</h3>
+        <p>Learning data visualization</p>
+    </div>
+</div>
 
-            <div class="skill-card">
-                <h3>NumPy & Pandas</h3>
-                <p>Currently exploring Python libraries</p>
-            </div>
-
-        </div>
+<div class="skill-card">
+    <div class="skill-icon">🐼</div>
+    <div class="skill-info">
+        <h3>NumPy & Pandas</h3>
+        <p>Currently exploring Python libraries</p>
+    </div>
+</div>
 
     </section>
 
